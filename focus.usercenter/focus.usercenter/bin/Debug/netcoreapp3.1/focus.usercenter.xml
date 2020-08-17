@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>focus.usercenter</name>
+    </assembly>
+    <members>
+        <member name="M:focus.usercenter.Tools.JwtHelper.IssueJwt(focus.usercenter.Tools.TokenModelJwt)">
+            <summary>
+            颁发JWT字符串
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:focus.usercenter.Tools.JwtHelper.SerializeJwt(System.String)">
+            <summary>
+            解析
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:focus.usercenter.Tools.TokenModelJwt">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:focus.usercenter.Tools.TokenModelJwt.Uid">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:focus.usercenter.Tools.TokenModelJwt.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:focus.usercenter.Tools.TokenModelJwt.Work">
+            <summary>
+            职能
+            </summary>
+        </member>
+    </members>
+</doc>
